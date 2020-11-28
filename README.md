@@ -4,6 +4,9 @@ A simple todo backend API, written in golang.
 ### Project structure
 ```
 main.go
+config/
+    config.go
+    database.go
 models/
     todo_model.go
     connector.go
@@ -15,6 +18,10 @@ controllers/
  - db connection function
  - controller specifications and path
  - kick start of the gin framework
+
+**config.go & database.go** contain
+ - database configuration and generation of the connection string
+ - debug config
 
 **todo_model.go** *[tablename_model.go]* contains
  - todo table model structure
