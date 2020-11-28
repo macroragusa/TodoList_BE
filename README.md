@@ -1,4 +1,4 @@
-# todo_be
+# TodoList_BE
 A simple todo backend API, written in golang.
 
 ### Project structure
@@ -33,4 +33,3 @@ controllers/
 
 ##TODO
  - add documentation api with gin-sawgger
- - create frontend in Angular
